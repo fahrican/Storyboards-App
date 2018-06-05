@@ -10,7 +10,7 @@ import UIKit
 
 class PlayersViewController: UITableViewController {
     
-    var players = SampleData.generatePlayersData()
+    var players: [Player] = SampleData.generatePlayersData()
 }
 
 extension PlayersViewController {
