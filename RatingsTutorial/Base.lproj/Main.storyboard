@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="2312.8000000000002" y="-691.304347826087"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Add Player-->
         <scene sceneID="gKX-rT-h1J">
             <objects>
-                <tableViewController id="ATK-p0-Hbx" sceneMemberID="viewController">
+                <tableViewController id="ATK-p0-Hbx" customClass="PlayerDetailsViewController" customModule="RatingsTutorial" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zps-kh-6xU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,9 +155,21 @@
                             <outlet property="delegate" destination="ATK-p0-Hbx" id="ZTw-yz-hPC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gL8-S3-wlN"/>
+                    <navigationItem key="navigationItem" title="Add Player" id="gL8-S3-wlN">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PdO-iz-pSp">
+                            <connections>
+                                <segue destination="ZE5-GZ-acE" kind="unwind" unwindAction="cancelToPlayersViewController:" id="bDY-xX-hrt"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="YzK-bp-W98">
+                            <connections>
+                                <segue destination="ZE5-GZ-acE" kind="unwind" unwindAction="savePlayerDetail:" id="iD5-OX-1Jd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaJ-83-xYz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ZE5-GZ-acE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4084" y="-693.10344827586209"/>
         </scene>

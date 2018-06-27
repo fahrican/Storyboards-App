@@ -16,6 +16,7 @@
 		1159691720C1743700549EA5 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159691620C1743700549EA5 /* PlayersViewController.swift */; };
 		1159691920C1753500549EA5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159691820C1753500549EA5 /* Player.swift */; };
 		1159691B20C1763100549EA5 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159691A20C1763100549EA5 /* SampleData.swift */; };
+		11A38DC520E3876D00A3E3DC /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A38DC420E3876D00A3E3DC /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1159691620C1743700549EA5 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		1159691820C1753500549EA5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		1159691A20C1763100549EA5 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		11A38DC420E3876D00A3E3DC /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				1159691820C1753500549EA5 /* Player.swift */,
 				1159691A20C1763100549EA5 /* SampleData.swift */,
 				11592A3720C73DB8006DAD3A /* PlayerCell.swift */,
+				11A38DC420E3876D00A3E3DC /* PlayerDetailsViewController.swift */,
 			);
 			path = RatingsTutorial;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				11592A3820C73DB8006DAD3A /* PlayerCell.swift in Sources */,
 				1159691920C1753500549EA5 /* Player.swift in Sources */,
 				1107A36B20C08EED003EA19A /* ViewController.swift in Sources */,
+				11A38DC520E3876D00A3E3DC /* PlayerDetailsViewController.swift in Sources */,
 				1107A36920C08EED003EA19A /* AppDelegate.swift in Sources */,
 				1159691B20C1763100549EA5 /* SampleData.swift in Sources */,
 				1159691720C1743700549EA5 /* PlayersViewController.swift in Sources */,

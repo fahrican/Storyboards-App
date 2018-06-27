@@ -15,6 +15,12 @@ class PlayersViewController: UITableViewController {
 
 extension PlayersViewController {
     
+    @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue) {
+    }
+    
+    @IBAction func savePlayerDetail(_ segue: UIStoryboardSegue) {
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return players.count
     }
