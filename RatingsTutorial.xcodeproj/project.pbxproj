@@ -18,6 +18,7 @@
 		1159691B20C1763100549EA5 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159691A20C1763100549EA5 /* SampleData.swift */; };
 		11A38DC520E3876D00A3E3DC /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A38DC420E3876D00A3E3DC /* PlayerDetailsViewController.swift */; };
 		11EA506020E67CC800DC93CC /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA505F20E67CC800DC93CC /* GamePickerViewController.swift */; };
+		11EA506320E6AE4300DC93CC /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EA506120E6AE4300DC93CC /* Players.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1159691A20C1763100549EA5 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		11A38DC420E3876D00A3E3DC /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		11EA505F20E67CC800DC93CC /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		11EA506220E6AE4300DC93CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RatingsTutorial/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		1107A35C20C08EED003EA19A = {
 			isa = PBXGroup;
 			children = (
+				11EA506120E6AE4300DC93CC /* Players.storyboard */,
 				1107A36720C08EED003EA19A /* RatingsTutorial */,
 				1107A36620C08EED003EA19A /* Products */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1107A37320C08EEF003EA19A /* LaunchScreen.storyboard in Resources */,
+				11EA506320E6AE4300DC93CC /* Players.storyboard in Resources */,
 				1107A37020C08EEF003EA19A /* Assets.xcassets in Resources */,
 				1107A36E20C08EED003EA19A /* Main.storyboard in Resources */,
 			);
@@ -181,6 +185,14 @@
 				1107A37220C08EEF003EA19A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11EA506120E6AE4300DC93CC /* Players.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EA506220E6AE4300DC93CC /* Base */,
+			);
+			name = Players.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
