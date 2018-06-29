@@ -26,6 +26,15 @@ class PlayerDetailsViewController: UITableViewController {
         super.viewDidLoad()
         
     }
+    
+    required init?(coder aDecoder: NSCoder) {
+        print("init PlayerDetailsViewController")
+        super.init(coder: aDecoder)
+    }
+    
+    deinit {
+        print("deinit PlayerDetailsViewController")
+    }
 }
 
 extension PlayerDetailsViewController {
