@@ -52,7 +52,6 @@
 		1107A35C20C08EED003EA19A = {
 			isa = PBXGroup;
 			children = (
-				11EA506120E6AE4300DC93CC /* Players.storyboard */,
 				1107A36720C08EED003EA19A /* RatingsTutorial */,
 				1107A36620C08EED003EA19A /* Products */,
 			);
@@ -69,6 +68,7 @@
 		1107A36720C08EED003EA19A /* RatingsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				11EA506120E6AE4300DC93CC /* Players.storyboard */,
 				1107A36820C08EED003EA19A /* AppDelegate.swift */,
 				1107A36A20C08EED003EA19A /* ViewController.swift */,
 				1107A36C20C08EED003EA19A /* Main.storyboard */,
