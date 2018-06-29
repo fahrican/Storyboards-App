@@ -204,7 +204,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="YzK-bp-W98">
                             <connections>
-                                <segue destination="ZE5-GZ-acE" kind="unwind" unwindAction="savePlayerDetail:" id="iD5-OX-1Jd"/>
+                                <segue destination="ZE5-GZ-acE" kind="unwind" identifier="SavePlayerDetail" unwindAction="savePlayerDetail:" id="iD5-OX-1Jd"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

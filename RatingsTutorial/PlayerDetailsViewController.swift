@@ -10,6 +10,15 @@ import UIKit
 
 class PlayerDetailsViewController: UITableViewController {
     
+    var player: Player?
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
+        if segue.identifier == "SavePlayerDetail",
+            let playerName = nameTextField.text {
+            player = Player(name: playerName, game: "Chess", rating: 1)
+        }
+    }
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var detailLabel: UILabel!
     
