@@ -37,9 +37,9 @@ extension PlayersViewController {
         
         let index = detailViewController.index
         
-        let modelString = detailViewController.editedModel
+        let editedPlayer: Player? = detailViewController.editedModel
         
-        players[index!].name = modelString!
+        players[index!] = editedPlayer!
         
         tableView.reloadData()
         
