@@ -10,6 +10,7 @@ import UIKit
 
 class DetailTableViewController: UITableViewController {
     
+    //Here we declcare the connections for the 'Edit row' scene.
     @IBOutlet weak var editNameField: UITextField!
     
     @IBOutlet weak var editGameField: UITextField!
@@ -22,6 +23,7 @@ class DetailTableViewController: UITableViewController {
     
     var editedModel:Player?
     
+    //Here we save the properties of a Player instance and asign the properties to our connected UITextFields.
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,19 +42,16 @@ class DetailTableViewController: UITableViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         var myRating = 1
         if let rating = Int(editStarsField.text!) {
             myRating = rating
         }
-        
+        //Here we store the edited properties from the Player instance before and asign them to 'editedModel'.
         if segue.identifier == "save" {
             editedModel = Player(name: editNameField.text, game: editGameField.text, rating: myRating)
         }

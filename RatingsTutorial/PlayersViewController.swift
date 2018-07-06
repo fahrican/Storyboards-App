@@ -31,6 +31,8 @@ extension PlayersViewController {
         tableView.insertRows(at: [indexPath], with: .automatic)
     }
     
+    //Here we save the edited properties from the Player instance.
+    //Then we save this Player instance in our array.
     @IBAction func saveToMainViewController (segue:UIStoryboardSegue) {
         
         let detailViewController = segue.source as! DetailTableViewController
@@ -42,7 +44,6 @@ extension PlayersViewController {
         players[index!] = editedPlayer!
         
         tableView.reloadData()
-        
     }
     
     
@@ -60,7 +61,7 @@ extension PlayersViewController {
         return cell
     }
     
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    //Here we save our Players array in the array from DetailViewController.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "edit" {
